@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Ewert);
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+
+body {
+    background-image: url('/img/wood.jpg');
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.poster {
+    width: 488px;
+    height: 640px;
+    background-image: url(/img/paper.jpg);
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px -1px 12px 4px #000000; 
+    box-shadow: 0px -1px 12px 4px #000000;
+}
+
+#mugshot {
+    width: 300px;
+    height: 325px;
+    border: 2px solid #291200;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Ewert', sans-serif; /* ประเภทฟอนต์เป็น Ewert */
+    color: #291200; /* สีของฟอนต์เป็นน้ำตาลเข้ม */
+    font-size: 44pt; /* ขนาดของฟอนต์เป็น 44pt */
+    font-weight: normal; /* หัวข้อนี้ไม่เป็นตัวหนา */
+    margin: 0; /* ไม่มีระยะห่าง */
+}
+
+p {
+    font-family: 'Ultra', sans-serif;
+    color: #291200;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.description {
+    font-style: italic;
+    font-size: 16px;
+}
+
+h2 {
+    font-family: 'Ultra', sans-serif;
+    color: #291200;
+    margin: 10px;
+    font-weight: 500;
+}
+
+#price {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    font-family: 'Ultra', sans-serif;
+    color: #291200;
+    margin: 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
